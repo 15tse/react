@@ -6,7 +6,7 @@ function Counter() {
   const handleIncrement = () => {
     setCount(count + 1);
   };
-
+//conditionally
   const handleDecrement = () => {
     if (count > 0) {
       setCount(count - 1);

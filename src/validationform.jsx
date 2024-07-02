@@ -9,6 +9,8 @@ function ValidationForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const errorObject = {};
+    //conditionally
+    
 
     if (name === '') {
       errorObject.name = 'Name is required';
